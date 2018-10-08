@@ -1,0 +1,47 @@
+{
+  "name": "videoTest",
+  "subdomain": "videoTest",
+  "preferGlobal": true,
+  "version": "3.0.2",
+  "author": {
+    "name": "nilesh",
+    "email": "nilesh@tradesocio.com"
+  },
+  "description": "video confurancing micro App",
+  "contributors": [
+    {
+      "name": "nilesh",
+      "email": "nilesh@tradesocio.com"
+    }
+  ],
+  "scripts": {
+    "start": "node signaler.js"
+  },
+  "main": "signaler.js",
+  "keywords": [
+    "webrtc",
+    "javascript",
+    "io",
+    "socket",
+    "socket.io",
+    "socketio-over-nodejs",
+    "websockets",
+    "nodejs",
+    "node",
+    "node.js",
+    "webrtc-signaling",
+    "channels",
+    "namespaces",
+    "rooms",
+    "signalling",
+    "signaling"
+  ],
+  "analyze": false,
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {
+    "socket.io": "0.9.x",
+    "node-static": "0.7.x"
+  }
+}
